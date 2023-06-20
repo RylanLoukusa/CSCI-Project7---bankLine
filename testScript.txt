@@ -1,0 +1,47 @@
+Script started on Sun 09 Apr 2023 11:31:58 PM CDT
+]0;sq3572nq@csci4:~/Labs/lab9/project7[?1034h[sq3572nq@csci4 project7]$ cou[K[K[Kcat testFile.txt
+1 5
+2 5
+4 5
+20 5
+22 5
+24 5
+26 5
+28 5
+30 5
+88 3
+
+
+
+
+]0;sq3572nq@csci4:~/Labs/lab9/project7[sq3572nq@csci4 project7]$ g++ eventQueue.txt[K[K[Kcpp
+./a.out]0;sq3572nq@csci4:~/Labs/lab9/project7[sq3572nq@csci4 project7]$ ./a.out
+Enter input file name: testFile.txt
+1
+Processing an arrival event at time:  1
+Processing an arrival event at time:  2
+Processing an arrival event at time:  4
+Processing a departure event at time: 6
+Processing a departure event at time: 11
+Processing a departure event at time: 16
+Processing an arrival event at time:  20
+Processing an arrival event at time:  22
+Processing an arrival event at time:  24
+Processing a departure event at time: 25
+Processing an arrival event at time:  26
+Processing an arrival event at time:  28
+Processing an arrival event at time:  30
+Processing a departure event at time: 30
+Processing a departure event at time: 35
+Processing a departure event at time: 40
+Processing a departure event at time: 45
+Processing a departure event at time: 50
+Processing an arrival event at time:  88
+Processing a departure event at time: 91
+Final Statistics: 
+   Total number of custmers processed: 10
+   Average amount of time spent waiting: 5.60
+]0;sq3572nq@csci4:~/Labs/lab9/project7[sq3572nq@csci4 project7]$ exit
+exit
+
+Script done on Sun 09 Apr 2023 11:32:47 PM CDT
